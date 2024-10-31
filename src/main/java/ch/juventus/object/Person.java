@@ -23,6 +23,11 @@ public class Person {
         this.lastName = lastName;
     }
 
+    public Person(String firstName, int age) {
+        this.firstName = firstName;
+        this.age = age;
+    }
+
     public String getFirstName() {
         return firstName;
     }
